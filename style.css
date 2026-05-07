@@ -5,3 +5,31 @@
 }
 
 /* write all your rules below */
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 200px;
+    background-color: yellow;
+}
+.hero{
+    display: flex;
+    width: 100vw;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+}
+main{
+    display: flex;
+    width: 100vw;
+    height: 20vh;
+    justify-content: space-around;
+    background-color: aqua;
+}
+footer{
+    display: flex;
+    width: 100vw;
+    height: 20vh;
+    background-color: red;
+}
